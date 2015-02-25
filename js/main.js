@@ -66,8 +66,9 @@ jQuery(document).ready(function($) {
 
     $('.flexslider').flexslider({
       slideshow: true,
-      slideshowSpeed: 3000,  
+      slideshowSpeed: 6000,  
       animation: "fade",
+      animationSpeed: 1000,
       directionNav: false,
     });
 

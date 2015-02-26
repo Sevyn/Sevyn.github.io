@@ -412,15 +412,12 @@ a.toggle-menu {
 .heading-section h2 {
   font-size: 28px;
   font-weight: 600;
-  text-transform: uppercase;
-  border-bottom: 1px solid #444444;
   display: inline-block;
 }
 .heading-section p {
   color: #444444;
   font-size: 16px;
   font-weight: 300;
-  text-transform: uppercase;
   margin-top: 10px;
 }
 
@@ -571,6 +568,9 @@ a.toggle-menu {
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  margin: auto;
 }
 .team-member .member-thumb img {
   width: 100%;
@@ -593,6 +593,7 @@ a.toggle-menu {
   -moz-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
 }
+
 .team-member .member-thumb .team-overlay h3 {
   font-size: 18px;
   text-transform: uppercase;
@@ -600,10 +601,9 @@ a.toggle-menu {
   display: inline-block;
   padding-bottom: 10px;
   border-bottom: 1px solid white;
-  margin-top: 64px;
+  margin-top: 100px;
 }
 .team-member .member-thumb .team-overlay span {
-  text-transform: uppercase;
   font-weight: 300;
   margin-top: 10px;
   display: block;

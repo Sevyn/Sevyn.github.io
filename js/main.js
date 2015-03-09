@@ -65,12 +65,6 @@ jQuery(document).ready(function($) {
     });
 
 
-    $('.toggle-menu').click(function(){
-        $('.menu-responsive').slideToggle();
-        return false;
-    });
-
-
     /************** LightBox *********************/
       $(function(){
         $('[data-rel="lightbox"]').lightbox();

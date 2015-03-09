@@ -713,6 +713,14 @@ a.toggle-menu {
     border-bottom: 2px solid #fd412f;
 }
 
+.orange {
+    color: #fd412f !important;
+}
+
+
+.dropdown > a {
+    display: inline-block !important;
+}
 /*
 body, p, div, h1, h2, h3, h4, h5, h6 {
 	font-family: "Open Sans", Arial, Verdana, Geneva, sans-serif;

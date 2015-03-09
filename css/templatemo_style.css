@@ -250,6 +250,10 @@ hr {
   -moz-border-radius: 18px;
 }
 
+.site-slider {
+    padding-top: 50px;
+}
+
 .main-header {
   position: fixed;
   width: 100%;

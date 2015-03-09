@@ -698,8 +698,6 @@ a.toggle-menu {
 }
 
 #go-top {
-  background-color: #ec523f;
-  color: white;
   padding: 15px 40px;
   text-transform: uppercase;
   font-weight: 700;
@@ -720,6 +718,18 @@ a.toggle-menu {
 
 .dropdown > a {
     display: inline-block !important;
+}
+
+.portfolio-overlay a {
+    color: white;
+}
+
+.portfolio-overlay a:hover {
+    color: black;
+}
+
+.expand {
+    color: #ec523f !important;
 }
 /*
 body, p, div, h1, h2, h3, h4, h5, h6 {

@@ -6,7 +6,7 @@ jQuery(document).ready(function($) {
 	/************** Toggle *********************/
     // Cache selectors
     var lastId,
-        topMenu = $(".menu-first, .menu-responsive"),
+        topMenu = $("#top-links"),
         topMenuHeight = topMenu.outerHeight()+15,
         // All list items
         menuItems = topMenu.find("a"),

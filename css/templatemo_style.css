@@ -709,6 +709,10 @@ a.toggle-menu {
   margin-top: 130px;
 }
 
+.active {
+    border-bottom: 2px solid #fd412f;
+}
+
 /*
 body, p, div, h1, h2, h3, h4, h5, h6 {
 	font-family: "Open Sans", Arial, Verdana, Geneva, sans-serif;

@@ -1,24 +1,71 @@
 $(function () {
+    'use strict';
+
 
     var $boxWrapper = $(".box-wrapper");
     var $boxes = $(".box");
     var $pills = $("#pills");
     var $pillButtons = $pills.find("button");
     var $sections = $(".box-expanded");
+    var heights = [];
+
 
     $boxWrapper.height($(window).height() - 150);
 
     $boxes.each(function () {
-        $box = $(this);
-        $box.css("line-height", $box.height() + "px")
+        var $box = $(this);
+        $box.css("line-height", $box.height() + "px");
+
+        var $section = $("#" + $box.data("section"));
+
+        $section.show();
+
+        heights[$box.data("section")] = $section.height();
+
+        $section.hide();
     });
 
-    $boxes.click(navigate);
+    $boxes.click(navigateAnimation);
     $boxes.hover(boxMouseOver, boxMouseOut);
     $pillButtons.click(navigate);
 
+    function navigateAnimation() {
+        var $box = $(this);
+
+        $box.css("position", "absolute");
+        $box.css("z-index", 10);
+
+        $boxes.each(function () {
+            var $someBox = $(this);
+
+            if ($box.data("section") !== $someBox.data("section")) {
+                $someBox.hide(400);
+            }
+        });
+
+        $pills.show(750);
+        
+        var left = 0;
+
+        if ($box.data("right")) {
+            left = -$box.width();
+        }
+
+        $box.animate({
+            "margin-left": "20px",
+            "margin-right": "20px",
+            border: "1px solid",
+            "border-radius": "4px",
+            "border-top-left-radius": 0,
+            padding: "5px",
+            width: "200%",
+            left: left,
+            height: heights[$box.data("section")]
+        }, 750, "swing", navigate);
+    }
+
     function navigate() {
-        $box = $(this);
+        var $box = $(this);
         var sectionId = $box.data("section");
 
         $sections.hide();
@@ -27,12 +74,11 @@ $(function () {
         var $section = $("#" + sectionId);
 
         $section.show();
-        $pills.show();
 
         var buttonPressed = $box.is("button");
 
         $pillButtons.each(function () {
-            $button = $(this);
+            var $button = $(this);
 
             $button.css("border-bottom-color", $section.css("border-top-color"));
 

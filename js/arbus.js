@@ -14,6 +14,7 @@ $(function () {
     });
 
     $boxes.click(navigate);
+    $boxes.hover(boxMouseOver, boxMouseOut);
     $pillButtons.click(navigate);
 
     function navigate() {
@@ -43,5 +44,30 @@ $(function () {
         if (buttonPressed) {
             $box.css("border-bottom-color", $box.css("background-color"));
         }
+    }
+
+    var boxlineHeight = $boxes.css("line-height");
+    var boxlineHeightInt = parseInt(boxlineHeight);
+    var boxlineHeightAnimated = (boxlineHeightInt - boxlineHeightInt / 10) + "px";
+
+    function boxMouseOver() {
+        var $box = $(this);
+
+        var lineHeight = parseInt($box.css("line-height"));
+        var newLineHeight = boxlineHeightAnimated;
+
+        $box.filter(':not(:animated)').animate({
+            "line-height": newLineHeight
+        }, 200, "swing");
+    }
+
+    function boxMouseOut() {
+        var $box = $(this);
+        var lineHeight = parseInt($box.css("line-height"));
+        var newLineHeight = boxlineHeight;
+
+        $box.animate({
+            "line-height": newLineHeight
+        }, 200, "swing");
     }
 });

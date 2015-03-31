@@ -51,6 +51,8 @@ $(function () {
             left = -$box.width();
         }
 
+        var height = heights[$box.data("section")];
+
         $box.animate({
             "margin-left": "20px",
             "margin-right": "20px",
@@ -60,7 +62,7 @@ $(function () {
             padding: "5px",
             width: "200%",
             left: left,
-            height: heights[$box.data("section")]
+            height: height
         }, 750, "swing", navigate);
     }
 

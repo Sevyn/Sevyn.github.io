@@ -359,6 +359,7 @@ img{
 	font-size: 40px;
 	line-height: 40px;
 }
+
 .heading p{
 	font-size: 16px;
 	line-height: 28px;
@@ -1081,7 +1082,7 @@ div[data-dimension] {
 	background: none repeat scroll 0 0 #f8f8f8;
 	display: inline;
 	float: left;
-	padding: 80px 0px 0px;
+	padding: 80px 0 40px;
 	width: 100%;
 	border-top: 1px solid #eee;
 	border-bottom: 1px solid #eee;	
@@ -1470,4 +1471,8 @@ textarea .form-control {
 	.subscr_btn {font-size: 11px;}
 	.slider_caption {margin-top: 34%;}  
 	
+}
+
+.primary-color {
+  color: #e84700;
 }

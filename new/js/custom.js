@@ -286,7 +286,7 @@ setTimeout(function() {
 	topMenu = $("#top-menu"),
 	topMenuHeight = topMenu.outerHeight()+13,
 	// All list items
-	menuItems = topMenu.find("a"),
+	menuItems = topMenu.find("a").not(".file-link"),
 	// Anchors corresponding to menu items
 	scrollItems = menuItems.map(function(){
 	  var item = $($(this).attr("href"));

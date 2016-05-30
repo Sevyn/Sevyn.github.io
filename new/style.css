@@ -537,7 +537,7 @@ div[data-dimension] {
   position: relative;
   text-align: center;
   text-transform: uppercase;
-  color: #e84700;
+  color: #ef4836;
 }
 .single_service > .service_title:after {
   bottom: 0;
@@ -1474,9 +1474,9 @@ textarea .form-control {
 }
 
 .primary-color {
-  color: #e84700;
+  color: #ef4836;
 }
 
 .quality-icons i.fa-stack-2x {
-  color: #e84700;
+  color: #ef4836;
 }

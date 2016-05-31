@@ -1368,7 +1368,6 @@ textarea .form-control {
 }
 
 @media(max-width:767px ){
-	.navbar-collapse{background-color: rgba(0,0,0,0.8);} 
 	.main_nav{text-align: center;}
 	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: rgba(0,0,0,0.5);}
 	#slides {height: 360px !important;}

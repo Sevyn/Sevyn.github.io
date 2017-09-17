@@ -61,25 +61,21 @@ setTimeout(function() {
 	
 		$('#myStat').circliful({
         animation: false,
-        percent: 95,
 				foregroundColor: "#e84700"
     });
     
 	$('#myStat2').circliful({
         animation: false,
-        percent: 95,
 				foregroundColor: "#e84700"
     });
     
 	$('#myStat3').circliful({
         animation: false,
-        percent: 80,
 				foregroundColor: "#e84700"
     });
     
 	$('#myStat4').circliful({
         animation: false,
-        percent: 60,
 				foregroundColor: "#e84700"
     });
 	

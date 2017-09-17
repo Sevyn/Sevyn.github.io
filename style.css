@@ -488,8 +488,7 @@ div[data-dimension] {
 /*--------------------*/
 
 #projects {
-  display: inline;
-  padding: 20px 0 70px;
+  padding: 20px 0;
 }
 .service_area{
 	display: inline;

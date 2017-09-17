@@ -52,6 +52,13 @@ a:focus{
   outline: none;
   text-decoration: none;
 }
+
+.link {
+  text-decoration: initial;
+  color: #ef4836;
+  font-weight: bold;
+}
+
 h1,h2{
 	font-family: 'Montserrat', sans-serif; 
 }

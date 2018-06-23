@@ -131,3 +131,52 @@
 .about_slider .slick-dots li.slick-active button:before {
   color: #ef4836;
 }
+.progress-item {
+  position : relative;
+  padding: 5px;
+}
+
+.progress-item .progress-title {
+  font-size     : 12px;
+  font-weight   : 400;
+  display       : inline-block;
+  margin-bottom : 5px;
+}
+
+.progress-item .progress {
+  height        : 2px;
+  box-shadow    : none;
+  border-radius : 0;
+  background    : transparent;
+}
+
+.progress-item .progress-bar {
+  background-color : #ef4836;
+  box-shadow       : none;
+  text-align       : right;
+}
+
+.progress-item .progress-percent {
+  font-size        : 10px;
+  background-color : #313131;
+  position         : absolute;
+  top              : 5px;
+  padding          : 0 8px;
+  border-radius    : 3px;
+}
+
+.progress-item .progress-percent::before {
+  content      : "";
+  position     : absolute;
+  left         : 0;
+  bottom       : -4px;
+  border-top   : 6px solid #313131;
+  border-right : 8px solid transparent;
+}
+
+
+@media (max-width: 768px) {
+  .progress-wrapper{
+    margin-bottom: 50px;
+  }
+}

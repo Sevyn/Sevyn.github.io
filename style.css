@@ -1498,3 +1498,7 @@ textarea .form-control {
   text-decoration: none;
   color: #333;
 }
+
+.professional-gallery .team_img img {
+  border-radius: 0;
+}

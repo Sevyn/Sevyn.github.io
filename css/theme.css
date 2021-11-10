@@ -1,135 +1,135 @@
 
 .scrollToTop{
-	background-color: #ef4836;
+	background-color: #000000;
 }
 .scrollToTop:hover,.scrollToTop:focus{
   background-color: #fff;
-  color: #ef4836;
-  border: 1px solid #ef4836;
+  color: #f04872;
+  border: 1px solid #f04872;
 }
 .navbar-brand > span {
-  color: #ef4836;
+  color: #f04872;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { 
-  color: #ef4836;
+  color: #f04872;
 }
 .navbar-default .navbar-nav > li > a:hover{
-  color: #ef4836;
+  color: #f04872;
 }
 .slider_btn:hover,.slider_btn:focus{
-	border-color:#ef4836;
-	color: #ef4836;
+	border-color:#f04872;
+	color: #f04872;
 }
 .slides-navigation a::before,
 .slides-navigation a::after,
 .slides-navigation .icon-wrap::before,
 .slides-navigation .icon-wrap::after {
-	background: #ef4836;
+	background: #f04872;
 }
 .slides-pagination a {
-  border: 2px solid #ef4836;
+  border: 2px solid #f04872;
 }
-.heading h2 {
-  border-bottom: 5px solid #ef4836;
+.heading h2 { /*Sub-headers*/
+  border-bottom: 5px solid #f04872;
 }
 .panel-title a:hover{
-	color: #ef4836;		
+	color: #f04872;		
 }
 .panel-title a span{
-  color: #ef4836;		
+  color: #f04872;		
 }
-.service_icon{
-	background-color: #ef4836;
+.service_icon{ /*Project Icons*/
+	background-color: #4e4e4e;
 }
 
 .single_service .service_icon:hover{	
-	color: #ef4836;
-	border: 2px solid #ef4836;
+	color: #f04872;
+	border: 2px solid #f04872;
 	background-color: #fff;
 }
 .heading h3 {
-  border-bottom: 5px solid #ef4836;
+  border-bottom: 5px solid #f04872;
 }
 .fa-2x {
-  color: #ef4836;
+  color: #f04872;
 }
 .single_team a {
-  color: #ef4836;
+  color: #f04872;
 }
 .team_social a:hover,.team_social a:focus{
-	background-color: #ef4836;
+	background-color: #f04872;
 }
 .slick-prev, .slick-next {
-  background-color: #ef4836;
+  background-color: #f04872;
 }
 .single_price .price {
-  background-color: #ef4836; 
+  background-color: #f04872; 
 }
 .price_btn {
-  background-color: #ef4836;
-  border: 1px solid #ef4836;
+  background-color: #f04872;
+  border: 1px solid #f04872;
 }
 .price_btn:hover{
-	color: #ef4836 !important;
+	color: #f04872 !important;
 }
 .business_price {
-  background-color: #ef4836 !important;
+  background-color: #f04872 !important;
 }
 .business_price .price_btn{	
-	color: #ef4836 !important;
+	color: #f04872 !important;
 }
 .post_commentbox a:hover, .post_commentbox span:hover{
-	color: #ef4836;
+	color: #f04872;
 }
 .read_more{
-	color: #ef4836;	
+	color: #f04872;	
 }
 .read_more:hover,.read_more:focus{
-	border-bottom: 2px solid #ef4836;
+	border-bottom: 2px solid #f04872;
 }
 .testi_media .media-body span {
-  color: #ef4836;
+  color: #f04872;
 }
 .testimonial_slider .slick-dots li.slick-active button{
-  background: none repeat scroll 0 0 #ef4836;  
+  background: none repeat scroll 0 0 #f04872;  
 }
 .submit_btn {
-  background-color: #ef4836;
+  background-color: #f04872;
 }
 .submit_btn:hover{
-	color: #ef4836;
-	border-color: #ef4836;
+	color: #f04872;
+	border-color: #f04872;
 }
 .form-control:focus {
-  border-color: #ef4836;
+  border-color: #f04872;
 }
 .wagwep-container ul#portfolio-filter a:hover{
-  background-color: #ef4836;
+  background-color: #f04872;
 }
 .wagwep-container ul#portfolio-filter li.current a {
-  background:#ef4836;  
+  background:#f04872;  
 }
 .single_contact_feaured > i {
-  color: #ef4836;
+  color: #f04872;
 }
 .subscr_btn {
-  background-color: #ef4836;
+  background-color: #f04872;
 }
 .footer_left > p a {
-  color: #ef4836;
+  color: #f04872;
   font-weight: bold;
 }
 .social_nav li a:hover{
-  color: #ef4836;
-  border-color: #ef4836; 
+  color: #f04872;
+  border-color: #f04872; 
 }
-.panel-default .in{
-  border-color: #ef4836;
-  border-left: 5px solid #ef4836;
+.panel-default .in{ /*Company Description Panel*/
+  border-color: #ec6889;
+  border-left: 5px solid #ec6889;
 }
 .about_slider .slick-dots li.slick-active button:before {
-  color: #ef4836;
+  color: #f04872;
 }
 .progress-item {
   position : relative;
@@ -151,7 +151,7 @@
 }
 
 .progress-item .progress-bar {
-  background-color : #ef4836;
+  background-color : #f04872;
   box-shadow       : none;
   text-align       : right;
 }

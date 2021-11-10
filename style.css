@@ -30,7 +30,7 @@ Tags: light, white, landing page,single page,Multipurpose,custom-colors,Bootstra
 /* BASIC TYPOGRAPHY */
 /*--------------------*/
 
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans+Condensed:wght@700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Mohave&family=Open+Sans+Condensed:wght@700&family=Roboto&display=swap');
 
 
 body,html{
@@ -39,6 +39,11 @@ body,html{
 }
 body {
   overflow-x: hidden !important;
+}
+
+h3 {
+  font-family: 'Mohave', sans-serif;
+  font-size: 30px;
 }
 
 ul{
@@ -59,7 +64,7 @@ a:focus{
 
 .link {
   text-decoration: initial;
-  color: #ef4836;
+  color: #f04872;
   font-weight: bold;
 }
 
@@ -546,7 +551,7 @@ div[data-dimension] {
   position: relative;
   text-align: center;
   text-transform: uppercase;
-  color: #ef4836;
+  color: #ee4083;
 }
 .single_service > .service_title:after {
   bottom: 0;
@@ -1484,11 +1489,11 @@ textarea .form-control {
 }
 
 .primary-color {
-  color: #ef4836;
+  color: #f04872;
 }
 
 .quality-icons i.fa-stack-2x {
-  color: #ef4836;
+  color: #ce3c60;
 }
 
 .company-links {
@@ -1496,7 +1501,7 @@ textarea .form-control {
 }
 
 .company-links a {
-  color: #ef4836;
+  color: #5b7bd4;
 }
 
 .company-links a:hover {
